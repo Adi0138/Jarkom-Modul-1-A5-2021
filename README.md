@@ -62,7 +62,7 @@ Ketiga paket yang ada di gambar merupakan paket yang mengandung perintah query s
 ## Soal 5
 Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
 ### Jawaban : 
-Pada kolom display filter ketik `mysql.query contains SELECT || mysql.query contains select` lalu enter. Maka akan muncul tampilan seperti dibawah ini.
+Pada kolom display filter ketik `mysql.query contains INSERT || mysql.query contains insert` lalu enter. Maka akan muncul tampilan seperti dibawah ini.
 ![image](https://user-images.githubusercontent.com/80946219/134702387-ed689d30-37a5-4a5b-b8f5-d6ffb1b5cf75.png)
 
 Dropdown bagian MySQL Protocol dan Request Command Query.
