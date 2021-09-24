@@ -4,11 +4,89 @@ Kelompok A5 :
 <li>05111940000024 - Hanifa Fauziah
 <li>05111940000111 - Evelyn Sierra
 
+
 ## Soal 1
+Sebutkan webserver yang digunakan pada "ichimarumaru.tech"
+### Jawaban : 
+Pada kolom display filter tuliskan `http.host == "ichimarumaru.tech"`. Setelah itu klik salah satu paket http yang ada, klik kanan lalu pilih follow. Lalu, pilih HTTP stream. 
+Nantinya akan muncul kotak dialog seperti gambar yang dibawah ini.
+![image](https://user-images.githubusercontent.com/80946219/134697547-facaf6d1-3e69-472e-8a2f-41d6e603bcff.png)
+
+Web server yang digunakan oleh ichimarumaru.tech ada dibagian dengan tulisan server.
+![image](https://user-images.githubusercontent.com/80946219/134697682-8b49e5ba-ee6d-4999-a579-2504b1295262.png)
+
+Dari gambar diatas, bisa dilihat bahwa ichimarumaru.tech menggunakan webserver **nginx/1.18.0 (Ubuntu)**.
+ 
 ## Soal 2
+Temukan paket dari web-web yang menggunakan basic authentication method!
+### Jawaban : 
+Pada kolom display filter tuliskan `http.authbasic`. Setelah itu, tekan enter, maka akan muncul 3 paket yang ada.
+![image](https://user-images.githubusercontent.com/80946219/134698252-f100b7bd-ce57-42ab-a6a6-359ae14f1b55.png)
+
 ## Soal 3
+Ikuti perintah di `basic.ichimarumaru.tech`! Username dan password bisa didapatkan dari file .pcapng!
+### Jawaban : 
+Pada kolom display filter ketik `http.authbasic && http.host contains "basic.ichimarumaru.tech"` lalu pilih bagian meme.png. Maka akan muncul tampilan seperti dibawah ini.
+![image](https://user-images.githubusercontent.com/80946219/134699298-f6d36ca7-af77-444e-a33a-adddace1f069.png)
+
+Setelah itu, dropdown pada bagian Hypertext Transfer Protocol, lalu dropdown lagi pada bagian authorization. Maka akan muncul username dan passwordnya.
+![image](https://user-images.githubusercontent.com/80946219/134699660-2b3d7989-59ba-4da5-b9e0-57ac3436d160.png)
+
+Bisa dilihat dari gambar diatas,
+ 
+Username : kuncimenujulautan
+ 
+Password : tQKEJFbgNGC1NCZlWAOjhyCOm6o3xEbPkJhTciZN
+ 
+Ketika username dan password dimasukkan pada portal `basic.ichimarumaru.tech`. 
+![image](https://user-images.githubusercontent.com/80946219/134700042-2a856944-d88d-4041-9017-8d65ba53221c.png)
+ 
+Maka akan muncul tampilan seperti berikut ini.
+![image](https://user-images.githubusercontent.com/80946219/134700162-9318e240-4d7c-4cb7-be2c-3e565bf516e6.png)
+
+Jawaban dari pertanyaan yang ditampilkan adalah sebagai berikut.
+![image](https://user-images.githubusercontent.com/80946219/134700630-b667832e-400f-4a5b-911a-2d1bbd959ba1.png)
+
+Referensi jawabnya berasal dari modul 1 berikut ini.
+ 
+![image](https://user-images.githubusercontent.com/80946219/134700487-6528ae6f-5c6a-4d83-8763-3962cd8e161d.png)
+
 ## Soal 4
+Temukan paket mysql yang mengandung perintah query select!
+### Jawaban : 
+Pada kolom display filter ketik `mysql.query contains SELECT || mysql.query contains select` lalu enter. Maka akan muncul tampilan seperti dibawah ini.
+![image](https://user-images.githubusercontent.com/80946219/134701912-7c0e5fd8-00bc-4c3b-a68c-48b660081ab6.png)
+
+Ketiga paket yang ada di gambar merupakan paket yang mengandung perintah query select.
+ 
 ## Soal 5
+Login ke portal.ichimarumaru.tech kemudian ikuti perintahnya! Username dan password bisa didapat dari query insert pada table users dari file .pcap!
+### Jawaban : 
+Pada kolom display filter ketik `mysql.query contains SELECT || mysql.query contains select` lalu enter. Maka akan muncul tampilan seperti dibawah ini.
+![image](https://user-images.githubusercontent.com/80946219/134702387-ed689d30-37a5-4a5b-b8f5-d6ffb1b5cf75.png)
+
+Dropdown bagian MySQL Protocol dan Request Command Query.
+![image](https://user-images.githubusercontent.com/80946219/134702547-463b4fbc-fde3-42bb-a6c6-921669e19266.png)
+
+Terlihat dari gambar diatas bahwa,
+ 
+Username : akakanomi
+ 
+Password : pemisah4lautan
+
+Ketika username dan password dimasukkan pada portal `portal.ichimarumaru.tech`.
+![image](https://user-images.githubusercontent.com/80946219/134702930-59c42ba4-0dd9-433f-a864-18d1feade6a7.png)
+
+Maka akan muncul tampilan seperti berikut.
+![image](https://user-images.githubusercontent.com/80946219/134702998-babd4df4-f7d3-4fa6-b267-e1ae1ced0163.png)
+
+Jawaban dari pertanyaan yang ditampilkan adalah sebagai berikut.
+![image](https://user-images.githubusercontent.com/80946219/134703359-80a67209-f719-4ada-a102-5de82f30081a.png)
+
+Referensi jawabnya berasal dari modul 1 berikut ini.
+ 
+![image](https://user-images.githubusercontent.com/80946219/134703101-42259d3e-a857-4918-bd22-64493c44ac6b.png)
+ 
 ## Soal 6
 Cari username dan password ketika melakukan login ke FTP Server!
 ### Jawaban :
