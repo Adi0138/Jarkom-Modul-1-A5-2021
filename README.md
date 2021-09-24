@@ -1,4 +1,8 @@
-# Lapres Praktikum Modul 1
+# Lapres Praktikum Modul 1 Jaringan Komputer
+Kelompok A5 :
+<li>05111840000138 - Gema Adi Perwira
+<li>05111940000024 - Hanifa Fauziah
+<li>05111940000111 - Evelyn Sierra
 
 ## Soal 1
 ## Soal 2
