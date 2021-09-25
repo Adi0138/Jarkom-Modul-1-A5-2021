@@ -91,30 +91,44 @@ Referensi jawabnya berasal dari modul 1 berikut ini.
 Cari username dan password ketika melakukan login ke FTP Server!
 ### Jawaban :
  ftp.request.command == USER || ftp.request.command == PASS
+ ![image](https://user-images.githubusercontent.com/55088939/134754796-35bfc14a-eb11-4c38-93fb-a9af2e49105c.png)
+
  
 ## Soal 7
 Ada 500 file zip yang disimpan ke FTP Server dengan nama 0.zip, 1.zip, 2.zip, ..., 499.zip. Simpan dan Buka file pdf tersebut. (Hint = nama pdf-nya "Real.pdf")
  ### Jawaban :
  Frame contains “Real.pdf”, klik kanan tekan follow -> tcp stream -> show data as Raw. Simpan file Save as [nama].zip
+ ![image](https://user-images.githubusercontent.com/55088939/134754818-36254910-a054-4140-8fd0-3eb6830de76c.png)
+![image](https://user-images.githubusercontent.com/55088939/134754821-8b60481e-b6de-4e41-8c37-fb6b88609235.png)
+![image](https://user-images.githubusercontent.com/55088939/134755007-16834bce-92af-48d1-9949-bae796ec0219.png)
+
  
 ## Soal 8
 Cari paket yang menunjukan pengambilan file dari FTP tersebut!
  ### Jawaban :
  ftp.request.command contains "RETR"
- 
+ ![image](https://user-images.githubusercontent.com/55088939/134755040-9c9df844-d8f1-4a9f-974c-16227ec8c21d.png)
+
 ## Soal 9
 Dari paket-paket yang menuju FTP terdapat indikasi penyimpanan beberapa file. Salah satunya adalah sebuah file berisi data rahasia dengan nama "secret.zip". Simpan dan buka file tersebut!
  ### Jawaban :
  ketik ftp-data, cari secret.zip, klik kanan, follow -> tcp stream, show and save data as RAW, dan simpan dengan nama secret.zip
- 
+ ![image](https://user-images.githubusercontent.com/55088939/134755048-3eb98d03-1884-4db0-9de9-aa4331430522.png)
+![image](https://user-images.githubusercontent.com/55088939/134755054-85ce4a06-2537-45d0-8cf8-b10891fb0d7d.png)
+
+
 ## Soal 10
 Selain itu terdapat "history.txt" yang kemungkinan berisi history bash server tersebut! Gunakan isi dari "history.txt" untuk menemukan password untuk membuka file rahasia yang ada di "secret.zip"!
  ### Jawaban :
  ketik ftp-data, cari secret.zip, klik kanan, follow -> tcp stream, show and save data as RAW, dan simpan dengan nama secret.zip
 ketik ftp-data, cari history.txt. 
+![image](https://user-images.githubusercontent.com/55088939/134755066-5167cf0c-e48b-476e-b130-4217e0ceb2b3.png)
+![image](https://user-images.githubusercontent.com/55088939/134755067-0a337094-0aa0-4b6f-89cf-b3417e60eb13.png)
+![image](https://user-images.githubusercontent.com/55088939/134755075-2f0e7d81-173c-4075-82a0-a644221ebcaa.png)
 
  Isi file wanted.pdf
- 
+ ![image](https://user-images.githubusercontent.com/55088939/134755089-9259314c-06d3-45f4-96d6-45170c06d446.png)
+
 
 ## Soal 11 
 Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80! 
