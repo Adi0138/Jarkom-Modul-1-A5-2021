@@ -172,3 +172,6 @@ IPv4 Address merupakan alamat IP kalian. IP bisa berbeda beda tergantung wifi ya
 Kemudian buka wireshark dan ketik pada capture using this filter “Src host 192.168.1.28”(waktu itu IP saya 192.168.1.28). Kemudian jalankan, dan otomatis paket akan muncul sesuai filter. 
  
 ![soal15](https://user-images.githubusercontent.com/42856438/134635039-dd915d1c-d40c-47ae-9321-f940d2f40f31.png)
+
+## Kendala 
+Tidak ada kendala yang terjadi saat pengerjaan soal praktikum.
